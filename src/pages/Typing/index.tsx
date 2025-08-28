@@ -129,7 +129,7 @@ const App: React.FC = () => {
 
   return (
     <TypingContext.Provider value={{ state: state, dispatch }}>
-      <EnhancedPromotionModal />
+{/*       <EnhancedPromotionModal /> */}
       {state.isFinished && <DonateCard />}
       {state.isFinished && <ResultScreen />}
       <Layout>
